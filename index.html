@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Top Bar -->
+
+        <div class="top-bar">
+
+            <h1>
+                🌤 Weather App
+            </h1>
+
+            <button id="themeToggle" class="theme-btn">
+                🌙
+            </button>
+
+        </div>
+
+        <!-- Search -->
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name">
+
+            <button id="searchBtn">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </button>
+
+        </div>
+
+        <!-- Weather Card -->
+
+        <div class="weather-card">
+
+            <!-- Animation -->
+
+            <div id="weatherAnimation"></div>
+
+            <!-- City -->
+
+            <h2 id="cityName">
+
+                Search City
+
+            </h2>
+
+            <!-- Temperature -->
+
+            <h3 id="temperature">
+
+                --°C
+
+            </h3>
+
+            <!-- Condition -->
+
+            <p id="condition">
+
+                Search a city to view weather
+
+            </p>
+
+            <!-- Details -->
+
+            <div class="details">
+
+                <!-- Humidity -->
+
+                <div class="detail-box">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <div>
+
+                        <span>Humidity</span>
+
+                        <p id="humidity">
+
+                            --%
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Wind -->
+
+                <div class="detail-box">
+
+                    <i class="fa-solid fa-wind"></i>
+
+                    <div>
+
+                        <span>Wind</span>
+
+                        <p id="wind">
+
+                            -- km/h
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Lottie -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
