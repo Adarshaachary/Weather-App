@@ -4,7 +4,7 @@ Responsive Weather App using HTML, CSS, JavaScript, OpenWeather API, and Lottie 
 
 ## Live Demo
 
-Live demo coming soon.
+https://adarshaachary.github.io/Weather-App/
 
 ## Features
 
