@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables (API keys/secrets)
+.env
+.env.*
+!.env.example
+
+# Dependency folders (if npm is used)
+node_modules/
+
+# Build output
+build/
+dist/
+
+# VS Code workspace/local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
